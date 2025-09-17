@@ -1,10 +1,3 @@
-import { Inter, Lusitana } from 'next/font/google';
-
-// Load Inter font for general use
-export const inter = Inter({ subsets: ['latin'] });
-
-// Load Lusitana font for the logo
-export const lusitana = Lusitana({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-});
+// Temporarily use system fonts instead of Google Fonts
+export const inter = { className: 'font-sans' };
+export const lusitana = { className: 'font-serif' };
